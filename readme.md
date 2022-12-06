@@ -2,7 +2,7 @@
 Find more themes: https://github.com/JulianPrieber/llc-themes
                                                                                                                                                                          
 *	Theme Name: Dawn
-*	Theme Version: 1.0
+*	Theme Version: 1.1
 *	Theme Date: 2022-12-01
 *	Theme Author: JulianPrieber
 *	Theme Author URI: https://github.com/JulianPrieber
