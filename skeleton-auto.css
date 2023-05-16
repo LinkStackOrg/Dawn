@@ -16,9 +16,6 @@
 */
 
 
-@import url('https://fonts.bunny.net/css?family=Karla:400,700&display=swap');
-
-
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -61,66 +58,6 @@
   html is set to 62.5% so that all the REM measurements throughout Skeleton
   are based on 10px sizing. So basically 1.5rem = 15px :) */
 
-  html {
-    font-size: 100%; }
-
-  :root {
-    --bgColor: #223344;
-    --bgColor2: #090a0f;
-    --accentColor: #FFF;
-    --font: 'Karla', sans-serif;
-    --delay: .3s; }
-
-  /* Background
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-  body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    font-family: var(--font);
-    background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
-    background-image: url('https://raw.githubusercontent.com/JulianPrieber/Dawn/main/background.jpg');
-    opacity: 0;
-    animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
-    animation-fill-mode: forwards;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    color: #FFFFFF;
-  }
-
-  
-  /* Animation */
-  @keyframes transitionAnimation {
-    0% {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes animate {
-    0% {
-      background-position: -500%;
-    }
-    100% {
-      background-position: 500%;
-    }
-}
-
-@keyframes animStar {
-    from {
-        transform: translateY(0px);
-    }
-    to {
-        transform: translateY(-2000px);
-    }
-}
-  
   /* Typography
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   h1 {
