@@ -2,7 +2,7 @@
 Find more themes: https://linkstack.org/themes/
                                                                                                                                                                          
 *	Theme Name: Dawn
-*	Theme Version: 1.1
+*	Theme Version: 1.2
 *	Theme Date: 2022-12-01
 *	Theme Author: JulianPrieber
 *	Theme Author URI: https://github.com/JulianPrieber
